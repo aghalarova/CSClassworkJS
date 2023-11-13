@@ -35,15 +35,15 @@
 // console.log(fullName);
 
 // TASK-3
-// PART-1
-let persons = [
-    { name: "Akif", age: 25 },
-    { name: "Aysu", age: 32 },
-    { name: "Ali", age: 35 }
-];
+// // PART-1
+// let persons = [
+//     { name: "Akif", age: 25 },
+//     { name: "Aysu", age: 32 },
+//     { name: "Ali", age: 35 }
+// ];
 
-// let persons2 = persons.find((item)=> item.age>30)
+// // let persons2 = persons.find((item)=> item.age>30)
+// // console.log(persons2);
+
+// let persons2 = persons.findIndex((item)=> item.age>30)
 // console.log(persons2);
-
-let persons2 = persons.findIndex((item)=> item.age>30)
-console.log(persons2);
