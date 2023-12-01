@@ -241,8 +241,7 @@ function drawTable(data) {
 
     trElement.innerHTML = `
     <td>${element.id}</td>
-    <td>${element.first_name}</td>
-    <td>${element.last_name}</td>
+    <td>${element.first_name} ${element.last_name}</td>
     <td>${element.email}</td>
     <td>${element.gender}</td>
     `;
@@ -275,8 +274,6 @@ search.addEventListener("keyup", function (event) {
 });
 
 sortName.addEventListener("click", function () {
-  let nameSort = users.sort((a, b) =>
-    a.first_name.localeCompare(b.first_name)
-  );
+  let nameSort = users.sort((a, b) => a.first_name.localeCompare(b.first_name));
   drawTable(nameSort);
 });
