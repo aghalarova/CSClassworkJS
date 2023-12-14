@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body {
+  background-color: rgb(70, 57, 57);
+}
+.dict {
+  background-color: antiquewhite;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px;
+  gap: 10px;
+}
+input {
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+}
