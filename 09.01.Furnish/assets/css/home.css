@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+header {
+  padding: 30px;
+  position: absolute;
+  width: 100%;
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header h2 {
+  color: #052c43;
+}
+header .header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+#home-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#home-section .left {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(155, 180, 190);
+  width: 50%;
+  padding: 215px 90px;
+}
+#home-section .left span {
+  color: #144663;
+  font-size: 2.4rem;
+}
+#home-section .left h1 {
+  color: #052c43;
+  font-size: 2.4rem;
+}
+#home-section .left p {
+  color: #052c43;
+  opacity: 0.8;
+  width: 70%;
+}
+#home-section .left button {
+  padding: 15px 20px;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 50px;
+  color: #144663;
+  font-weight: 600;
+  font-size: 12px;
+}
+#home-section .right {
+  width: 50%;
+  background-image: url("../image/bg_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#banner-cards .banner-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+#banner-cards .banner-card {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 15px;
+  background-color: rgb(154, 228, 203);
+  padding: 20px;
+}
+#banner-cards .banner-card p {
+  width: 80%;
+}
+#about-section {
+  background-image: url("../image/bg_4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+#about-section .about-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 50%;
+  gap: 20px;
+  position: absolute;
+  right: 0;
+  top: 180px;
+}
+#about-section .about-section h1 {
+  color: #052c43;
+  font-size: 2.4rem;
+  width: 80%;
+}
+#about-section .about-section p:nth-child(1) {
+  color: rgb(122, 122, 122);
+}
+#about-section .about-section p:nth-child(3) {
+  line-height: 26px;
+  width: 80%;
+  font-size: 1.1rem;
+  color: rgb(122, 122, 122);
+}
+
+#testimonal .testimonal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#testimonal .testimonal .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#testimonal .testimonal .cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(139, 130, 118);
+  padding: 50px 0;
+  gap: 20px;
+}
+#testimonal .testimonal .cards {
+  position: relative;
+}
+#testimonal .testimonal .cards .icon {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  background-color: rgb(154, 154, 163);
+  padding: 10px ;
+  border-radius: 50%;
+}
+#testimonal .testimonal .cards .card .text-p {
+  width: 70%;
+}
+#testimonal .testimonal .cards .card .card-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  gap: 70px;
+}
+#testimonal .testimonal .cards .card .card-info img {
+  width: 70px;
+  border-radius: 50%;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
