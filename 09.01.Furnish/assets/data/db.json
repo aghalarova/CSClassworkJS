@@ -3,26 +3,22 @@
     {
       "id": 1,
       "title": "Amazing Deals",
-      "description": "Far far away, behind the word mountains, far from the countries Vokalia.",
-      "image": "./assets/image/cards-image/1.PNG"
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia."
     },
     {
       "id": 2,
       "title": "Quality Furniture",
-      "description": "Far far away, behind the word mountains, far from the countries Vokalia.",
-      "image": "./assets/image/cards-image/2.PNG"
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia."
     },
     {
       "id": 3,
       "title": "Modern Design",
-      "description": "Far far away, behind the word mountains, far from the countries Vokalia.",
-      "image": "./assets/image/cards-image/3.PNG"
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia."
     },
     {
       "id": 4,
       "title": "Best Support",
-      "description": "Far far away, behind the word mountains, far from the countries Vokalia.",
-      "image": "./assets/image/cards-image/4.PNG"
+      "description": "Far far away, behind the word mountains, far from the countries Vokalia."
     }
   ]
 }

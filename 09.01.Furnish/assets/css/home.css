@@ -4,14 +4,22 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: "Overlock SC", sans-serif;
 }
+
 .container {
   margin: 0 auto;
   max-width: 1200px;
 }
+@media screen and (max-width: 960px) {
+  .container {
+    padding: 0 5%;
+  }
+}
 header {
-  padding: 30px;
+  padding: 40px 0;
   position: absolute;
+  z-index: 9999;
   width: 100%;
 }
 header .header {
@@ -26,77 +34,116 @@ header .header nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 40px;
+}
+header .header nav ul li a {
+  font-size: 1.2rem;
+  color: #052c43;
 }
 #home-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: #bcddf0;
 }
-#home-section .left {
+#home-section .home-section .left-section {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  width: 50%;
+  height: 100vh;
   gap: 20px;
-  background-color: rgb(155, 180, 190);
-  width: 50%;
-  padding: 215px 90px;
 }
-#home-section .left span {
-  color: #144663;
-  font-size: 2.4rem;
+#home-section .home-section .left-section span {
+  font-size: 2.2rem;
 }
-#home-section .left h1 {
-  color: #052c43;
-  font-size: 2.4rem;
+#home-section .home-section .left-section p {
+  font-size: 1.2rem;
+  max-width: 70%;
 }
-#home-section .left p {
-  color: #052c43;
-  opacity: 0.8;
-  width: 70%;
-}
-#home-section .left button {
-  padding: 15px 20px;
-  background-color: aliceblue;
-  border: none;
+#home-section .home-section .left-section button {
+  padding: 15px 30px;
   border-radius: 50px;
-  color: #144663;
-  font-weight: 600;
-  font-size: 12px;
+  border: none;
+  font-size: 1rem;
 }
-#home-section .right {
+#home-section .home-section .right-section {
   width: 50%;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 999;
   background-image: url("../image/bg_2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
 }
-#banner-cards .banner-cards {
+#data-section {
+  padding: 80px 0;
+}
+#data-section .cards-sect {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 30px;
 }
-#banner-cards .banner-card {
+#data-section .input-btn {
   display: flex;
   justify-content: center;
-  align-items: start;
-  flex-direction: column;
-  gap: 15px;
-  background-color: rgb(154, 228, 203);
-  padding: 20px;
+  align-items: center;
+  gap: 30px;
 }
-#banner-cards .banner-card p {
-  width: 80%;
+#data-section input {
+  padding: 15px 120px;
+  border: 1px solid rgb(157, 157, 199);
+  border-radius: 15px;
+}
+#data-section .add-btn button {
+  padding: 15px 20px;
+  border: 1px solid rgb(157, 157, 199);
+  border-radius: 15px;
+}
+#data-section .cards-sect .card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgb(157, 157, 199);
+  padding: 40px;
+  gap: 10px;
+  width: 30%;
+
+}
+#data-section .cards-sect .card button {
+  border: none;
+  background-color: transparent;
+}
+#data-section .cards-sect .card i {
+  background-color: rgb(202, 202, 202);
+  padding: 14px;
+  font-size: 1.7rem;
+  border-radius: 50%;
+}
+#data-section .cards-sect .card .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+#data-section .cards-sect .icon i {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #cf7500;
+  font-size: 1.1rem;
+  color: #052c43;
 }
 #about-section {
   background-image: url("../image/bg_4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   position: relative;
 }
 #about-section .about-section {
@@ -124,56 +171,156 @@ header .header nav ul {
   font-size: 1.1rem;
   color: rgb(122, 122, 122);
 }
-
-#testimonal .testimonal {
+#happy-customers {
+  background-color: aliceblue;
+  padding: 50px;
+}
+#happy-customers .happy-customers {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-#testimonal .testimonal .cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+#happy-customers .happy-customers h1 {
+  color: #052c43;
+  font-size: 2.4rem;
 }
-#testimonal .testimonal .cards .card {
+#happy-customers .happy-customers .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 0;
+}
+#happy-customers .happy-customers .cards .card {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
-  background-color: rgb(139, 130, 118);
-  padding: 50px 0;
+  padding: 40px 50px;
+  background-color: bisque;
   gap: 20px;
 }
-#testimonal .testimonal .cards {
+#happy-customers .happy-customers .cards .card-div {
   position: relative;
+  width: 30%;
 }
-#testimonal .testimonal .cards .icon {
+#happy-customers .happy-customers .cards .card .icon {
+  background-color: #cf7500;
   position: absolute;
-  left: 10px;
-  top: 0;
-  background-color: rgb(154, 154, 163);
-  padding: 10px ;
+  top: -17px;
+  left: 0x;
+  padding: 10px;
   border-radius: 50%;
+  color: white;
 }
-#testimonal .testimonal .cards .card .text-p {
-  width: 70%;
-}
-#testimonal .testimonal .cards .card .card-info {
+#happy-customers .happy-customers .cards .card .user {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
-  gap: 70px;
+  gap: 30px;
 }
-#testimonal .testimonal .cards .card .card-info img {
+#happy-customers .happy-customers .cards .card .user img {
   width: 70px;
   border-radius: 50%;
 }
-.text {
+#happy-customers .happy-customers .cards .card .user .text p {
+  font-size: 1.1rem;
+}
+#happy-customers .happy-customers .cards .card .user .text p:nth-child(1) {
+  color: #cf7500;
+  font-size: 1.3rem;
+}
+
+/* Recent From Blog */
+#recent-from-blog {
+  background-color: rgba(211, 211, 211, 0.74);
+  padding: 120px 0;
+}
+#recent-from-blog .recent-from-blog {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+#recent-from-blog .recent-from-blog h1 {
+  color: #052c43;
+  font-size: 2.4rem;
+}
+#recent-from-blog .recent-from-blog .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 60px 0;
+}
+#recent-from-blog .recent-from-blog .cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  background-color: rgb(200, 200, 200);
+}
+#recent-from-blog .recent-from-blog .cards #img-1 {
+  background-image: url("../image/blog/image_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+}
+#recent-from-blog .recent-from-blog .cards #img-2 {
+  background-image: url("../image/blog/image_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+}
+#recent-from-blog .recent-from-blog .cards #img-3 {
+  background-image: url("../image/blog/image_3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+}
+#recent-from-blog .recent-from-blog .cards #img-4 {
+  background-image: url("../image/blog/image_4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 300px;
+}
+#recent-from-blog .recent-from-blog .cards .card .img-card img {
+  width: 100%;
+}
+#recent-from-blog .recent-from-blog .cards .card .text-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  padding: 0 13px;
+  gap: 15px;
+}
+#recent-from-blog .recent-from-blog .cards .card .text-card .icon-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 0.8rem;
+}
+#recent-from-blog .recent-from-blog .cards .card .text-card .icon-text i,
+#recent-from-blog .recent-from-blog .cards .card .text-card .icon-text span {
+  color: #cf7500;
+}
+footer {
+  background-color: #bcddf0;
+  text-align: center;
+  padding: 40px 0;
 }
