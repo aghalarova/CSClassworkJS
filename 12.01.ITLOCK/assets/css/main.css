@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+header {
+  padding: 0 40px;
+}
+#header-top .header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(209, 205, 205);
+  border-top: 1px solid rgb(209, 205, 205);
+}
+#header-top .header-top p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+#header-top .header-top strong {
+  color: #003072;
+}
+#header-top .header-top .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#header-top .header-top .icons i {
+  color: #003072;
+}
+#header-bottom .header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+#header-bottom .header-bottom nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#header-bottom .header-bottom nav ul li a {
+  font-size: 1.2rem;
+  color: #003072;
+}
+#header-bottom .header-bottom .nav-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+#header-bottom .header-bottom .nav-icon ul li a {
+  border: 2px solid #003072;
+  padding: 10px 30px;
+  color: #003072;
+  font-weight: 600;
+}
+#header-bottom .header-bottom .nav-icon .icon-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#header-bottom .header-bottom .nav-icon .icon-nav .icon i {
+  font-size: 1.7rem;
+  color: #003072;
+}
+#header-bottom .header-bottom .nav-icon .icon-nav .text p {
+  opacity: 0.7;
+}
+#header-bottom .header-bottom .nav-icon .icon-nav .text strong {
+  color: #003072;
+}
+
+/* MAIN-SECT */
+#main-sect {
+  background-image: url("../image/data-img/h1_hero1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 0;
+}
+#main-sect .main-sect {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /* gap: 40px; */
+}
+#main-sect .main-sect h1 {
+  font-size: 3.6rem;
+  max-width: 35%;
+  color: white;
+  padding-bottom: 20px;
+}
+#main-sect .main-sect .div {
+  width: 120px;
+  height: 4px;
+  background-color: #ffffff;
+}
+#main-sect .main-sect h3 {
+  font-size: 1.3rem;
+  max-width: 40%;
+  color: white;
+  padding: 20px 0;
+}
+#main-sect .main-sect a {
+  font-size: 1.2rem;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 30px;
+}
+input {
+  padding: 10px 30px;
+}
