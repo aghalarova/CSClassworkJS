@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99"
+    },
+    {
+      "id": "2",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99"
+    },
+    {
+      "id": "3",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99"
+    },
+    {
+      "id": "4",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99"
+    },
+    {
+      "id": "5",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99"
+    },
+    {
+      "id": "6",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99"
+    },
+    {
+      "id": "7",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99"
+    },
+    {
+      "id": "8",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99"
+    }
+  ]
+}

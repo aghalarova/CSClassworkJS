@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "4",
+      "title": "Nikkormat camera, Nikkor 35mm f2 lens, Foma Retropan 320 film",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsam commodi fugit illo provident, debitis earum, corporis fuga, obcaecatitempora ipsa magnam. Quidem, dolorum illum sequi beatae aut repellat. Nihil.",
+      "price": "430 $",
+      "image": "https://media.istockphoto.com/id/924944630/photo/vintage-film-camera-and-film.jpg?s=2048x2048&w=is&k=20&c=7-HonXCwS2v6jvaZ6ouXNfVUsemrcLHy1f7RzKSi45o="
+    },
+    {
+      "id": "5",
+      "title": "oild West Hoodie",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsam commodi fugit illo provident, debitis earum, corporis fuga, obcaecatitempora ipsa magnam. Quidem, dolorum illum sequi beatae aut repellat. Nihil.",
+      "price": "720 $",
+      "image": "https://plus.unsplash.com/premium_photo-1667538960104-25726d82a6e5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": "bb47",
+      "title": "photo",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsam commodi fugit illo provident, debitis earum, corporis fuga, obcaecatitempora ipsa magnam. Quidem, dolorum illum sequi beatae aut repellat. Nihil.",
+      "image": "https://media.istockphoto.com/id/639695818/photo/photographer-workplace.jpg?s=2048x2048&w=is&k=20&c=nsNh31L6-lF5_gOwn1ZaFchibief5YCd5LhZbNJo4l8=",
+      "price": "3333$"
+    },
+    {
+      "id": "f99b",
+      "title": "asd",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsam commodi fugit illo provident, debitis earum, corporis fuga, obcaecatitempora ipsa magnam. Quidem, dolorum illum sequi beatae aut repellat. Nihil.",
+      "image": "https://media.istockphoto.com/id/639695818/photo/photographer-workplace.jpg?s=2048x2048&w=is&k=20&c=nsNh31L6-lF5_gOwn1ZaFchibief5YCd5LhZbNJo4l8=",
+      "price": "44$"
+    },
+    {
+      "id": "4f60",
+      "title": "asdfghnm",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsam commodi fugit illo provident, debitis earum, corporis fuga, obcaecatitempora ipsa magnam. Quidem, dolorum illum sequi beatae aut repellat. Nihil.",
+      "image": "https://images.unsplash.com/photo-1457089328109-e5d9bd499191?q=80&w=1875&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": "7777777$"
+    },
+    {
+      "id": "8564",
+      "title": "asdfgh",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsam commodi fugit illo provident, debitis earum, corporis fuga, obcaecatitempora ipsa magnam. Quidem, dolorum illum sequi beatae aut repellat. Nihil.",
+      "image": "https://images.unsplash.com/photo-1494337095615-b5f370aad75f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": "77$"
+    },
+    {
+      "id": "0d44",
+      "title": "vghj",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsam commodi fugit illo provident, debitis earum, corporis fuga, obcaecatitempora ipsa magnam. Quidem, dolorum illum sequi beatae aut repellat. Nihil.",
+      "image": "https://images.unsplash.com/photo-1505421810888-a940f267b6ca?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": "11$"
+    },
+    {
+      "id": "45c7",
+      "title": "ffg",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsam commodi fugit illo provident, debitis earum, corporis fuga, obcaecatitempora ipsa magnam. Quidem, dolorum illum sequi beatae aut repellat. Nihil.",
+      "image": "https://images.unsplash.com/photo-1649531729012-0de3963c7bc4?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "price": "55$"
+    }
+  ]
+}

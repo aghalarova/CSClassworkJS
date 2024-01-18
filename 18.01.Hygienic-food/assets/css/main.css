@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+p,
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  margin-bottom: 0;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+/* HEADER */
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  border-bottom: 1px solid white;
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header .logo h1 {
+  color: white;
+  font-size: 2.4rem;
+  margin-bottom: 0;
+}
+header .header .contact-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+header .header .contact-nav nav {
+  padding: 30px 50px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+header .header .contact-nav nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+header .header .contact-nav nav ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+}
+header .header .contact-nav .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+header .header .contact-nav .text p:nth-child(1) {
+  color: #ffc515;
+}
+header .header .contact-nav .text p {
+  color: white;
+  font-size: 1.1rem;
+}
+header .header .contact-nav .text i {
+  font-size: 0.8rem;
+  color: white;
+}
+header .header .icon i {
+  display: none;
+}
+
+/* FOOD SECT */
+#food-sect .food-sect .carousel-item .carousel-caption h5 {
+  font-size: 5rem;
+}
+#food-sect .food-sect .carousel-item .carousel-caption p {
+  font-size: 1.4rem;
+}
+.carousel-caption {
+  padding-bottom: 200px;
+}
+.carousel-control-next {
+  display: none;
+}
+.carousel-control-prev {
+  display: none;
+}
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  height: 30px;
+}
+
+/* WELCOME SECT */
+#welcome-sect .welcome-sect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 100px 0;
+}
+#welcome-sect .welcome-sect i {
+  color: #1b1a1a;
+  opacity: 0.7;
+  font-size: 3.1rem;
+}
+#welcome-sect .welcome-sect .line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#welcome-sect .welcome-sect .line h1 {
+  font-size: 3rem;
+}
+#welcome-sect .welcome-sect .line div {
+  border: 1px solid #ffc515;
+  width: 250px;
+}
+#welcome-sect .welcome-sect .cards-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#welcome-sect .welcome-sect .cards-div .card-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 30px;
+  gap: 20px;
+}
+#welcome-sect .welcome-sect .cards-div .card-div h2 {
+  color: #1b1a1a;
+  font-size: 2.1rem;
+}
+#welcome-sect .welcome-sect .cards-div .card-div p {
+  text-align: center;
+  color: #1b1a1a;
+  opacity: 0.7;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  padding: 170px 0;
+  background-image: url("../image/review-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#testimonials .testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#testimonials .testimonials i {
+  color: white;
+  font-size: 3.1rem;
+}
+#testimonials .testimonials .line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#testimonials .testimonials .line h1 {
+  color: white;
+  font-size: 3rem;
+}
+#testimonials .testimonials .line div {
+  border: 1px solid #ffc515;
+  width: 250px;
+}
+#testimonials .testimonials span {
+  font-size: 1.5rem;
+  color: white;
+}
+#testimonials .testimonials p {
+  text-align: center;
+  width: 80%;
+  color: white;
+}
+#testimonials .testimonials span:nth-child(1) {
+  color: #ffc515;
+  font-size: 1rem;
+}
+
+/* OUR SERVICES */
+#our-services {
+  padding: 150px 0;
+}
+#our-services .our-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+#our-services .our-services i {
+  font-size: 3.5rem;
+}
+#our-services .our-services .line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#our-services .our-services .line h1 {
+  font-size: 3rem;
+}
+#our-services .our-services .line div {
+  border: 1px solid #ffc515;
+  width: 250px;
+}
+#our-services .our-services .services-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  padding-top: 60px;
+}
+#our-services .our-services .services-cards .services-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 17px;
+}
+#our-services .our-services .services-cards .services-card i {
+  font-size: 1.9rem;
+  color: #f5d880;
+}
+#our-services .our-services .services-cards .services-card p {
+  text-align: center;
+  opacity: 0.7;
+}
+
+/* OUR MENU */
+#our-menu {
+  background-image: url("../image/menu-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+#our-menu .our-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#our-menu .our-menu i:nth-child(1) {
+  color: white;
+  font-size: 3.5rem;
+}
+#our-menu .our-menu .line {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#our-menu .our-menu .line div {
+  border: 1px solid #ffc515;
+  width: 250px;
+}
+#our-menu .our-menu .line h1 {
+  font-size: 3rem;
+  color: white;
+}
+#our-menu .our-menu .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 30px 0;
+}
+#our-menu .our-menu .btn button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.1rem;
+  color: white;
+}
+#our-menu .our-menu .cards-data {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+}
+#our-menu .our-menu .cards-data .text-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+#our-menu .our-menu .cards-data .text-card span,
+#our-menu .our-menu .cards-data .text-card h3 {
+  color: white;
+}
+#our-menu .our-menu .cards-data .text-card p {
+  font-size: 0.85rem;
+  opacity: 0.4;
+  color: white;
+}
+#our-menu .our-menu button:nth-child(5) {
+  padding: 15px 90px;
+  border: none;
+  background-color: #ffc515;
+  margin-top: 30px;
+  color: rgb(74, 72, 72);
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1199px) {
+  .container {
+    padding: 0 5%;
+  }
+  header {
+    padding: 10px 0;
+  }
+  header .header .contact-nav {
+    display: none;
+  }
+  header .header .icon i {
+    display: inline;
+    color: white;
+    font-size: 1.8rem;
+  }
+  #our-menu .our-menu .line div,
+  #welcome-sect .welcome-sect .line div,
+  #testimonials .testimonials .line div,
+  #our-services .our-services .line div,
+  footer .footer .line div {
+    display: none;
+  }
+  #welcome-sect .welcome-sect {
+    padding: 0;
+  }
+  #welcome-sect .welcome-sect .line h1,
+  #testimonials .testimonials .line h1,
+  #our-services .our-services .line h1,
+  #our-menu .our-menu .line h1,
+  footer .footer line h1 {
+    font-size: 2.5rem;
+  }
+  #our-services .our-services .services-cards,
+  #welcome-sect .welcome-sect .cards-div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #welcome-sect .welcome-sect {
+    padding-bottom: 50px;
+  }
+  #welcome-sect .welcome-sect .cards-div .card-div {
+    padding: 10px 0;
+  }
+  #testimonials,
+  #our-services {
+    padding: 100px 0;
+  }
+  #our-services .our-services .services-cards {
+    padding-top: 0;
+  }
+  #our-menu .our-menu .btn {
+    gap: 15px;
+  }
+  #our-menu .our-menu .cards-data {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #our-menu .our-menu .cards-data h3 {
+    font-size: 1.3rem;
+  }
+  .w-100 {
+    height: 100vh;
+    margin-bottom: 200px;
+  }
+  .d-none {
+    display: inline !important;
+  }
+  .carousel-caption {
+    padding-bottom: 300px;
+  }
+  #food-sect .food-sect .carousel-item .carousel-caption h5 {
+    font-size: 2rem;
+  }
+  .carousel-indicators [data-bs-target] {
+    margin-bottom: 220px;
+  }
+}
