@@ -1,0 +1,22 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "imgURL": "./assets/image/img-data/blog4 (1).jpg",
+      "title": "a",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, consequatur nemo! Odio perspiciatis ullam amet."
+    },
+    {
+      "id": 2,
+      "imgURL": "./assets/image/img-data/blog5 (1).jpg",
+      "title": "b",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, consequatur nemo! Odio perspiciatis ullam amet."
+    },
+    {
+      "id": 3,
+      "imgURL": "./assets/image/img-data/blog5 (1).jpg",
+      "title": "d",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, consequatur nemo! Odio perspiciatis ullam amet."
+    }
+  ]
+}
