@@ -1,52 +1,151 @@
 {
   "products": [
     {
-      "id": "1",
-      "title": "Scrambled Eggs with ham",
-      "description": "with wild mushrooms and asparagus",
-      "price": "$99.99"
-    },
-    {
       "id": "2",
-      "title": "Scrambled Eggs with ham",
+      "title": "lorem Eggs with ham",
       "description": "with wild mushrooms and asparagus",
-      "price": "$99.99"
-    },
-    {
-      "id": "3",
-      "title": "Scrambled Eggs with ham",
-      "description": "with wild mushrooms and asparagus",
-      "price": "$99.99"
+      "price": "$99.99",
+      "catagory": "breakfast"
     },
     {
       "id": "4",
       "title": "Scrambled Eggs with ham",
       "description": "with wild mushrooms and asparagus",
-      "price": "$99.99"
+      "price": "$99.99",
+      "catagory": "breakfast"
     },
     {
       "id": "5",
       "title": "Scrambled Eggs with ham",
       "description": "with wild mushrooms and asparagus",
-      "price": "$99.99"
+      "price": "$99.99",
+      "catagory": "breakfast"
     },
     {
       "id": "6",
       "title": "Scrambled Eggs with ham",
       "description": "with wild mushrooms and asparagus",
-      "price": "$99.99"
+      "price": "$99.99",
+      "catagory": "breakfast"
     },
     {
       "id": "7",
       "title": "Scrambled Eggs with ham",
       "description": "with wild mushrooms and asparagus",
-      "price": "$99.99"
+      "price": "$99.99",
+      "catagory": "breakfast"
     },
     {
       "id": "8",
       "title": "Scrambled Eggs with ham",
       "description": "with wild mushrooms and asparagus",
-      "price": "$99.99"
+      "price": "$99.99",
+      "catagory": "breakfast"
+    },
+    {
+      "id": "1",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$11.99",
+      "catagory": "brunch"
+    },
+    {
+      "id": "2",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99",
+      "catagory": "brunch"
+    },
+    {
+      "id": "3",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99",
+      "catagory": "brunch"
+    },
+    {
+      "id": "4",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99",
+      "catagory": "brunch"
+    },
+    {
+      "id": "5",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99",
+      "catagory": "brunch"
+    },
+    {
+      "id": "6",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99",
+      "catagory": "brunch"
+    },
+    {
+      "id": "7",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99",
+      "catagory": "brunch"
+    },
+    {
+      "id": "1",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$41.99",
+      "catagory": "lunch"
+    },
+    {
+      "id": "2",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99",
+      "catagory": "lunch"
+    },
+    {
+      "id": "3",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99",
+      "catagory": "lunch"
+    },
+    {
+      "id": "4",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99",
+      "catagory": "lunch"
+    },
+    {
+      "id": "1",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$61.99",
+      "catagory": "dinner"
+    },
+    {
+      "id": "2",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99",
+      "catagory": "dinner"
+    },
+    {
+      "id": "3",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99",
+      "catagory": "dinner"
+    },
+    {
+      "id": "4",
+      "title": "Scrambled Eggs with ham",
+      "description": "with wild mushrooms and asparagus",
+      "price": "$99.99",
+      "catagory": "dinner"
     }
   ]
 }
