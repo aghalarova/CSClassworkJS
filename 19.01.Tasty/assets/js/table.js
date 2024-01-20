@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080";
+const BASE_URL = "http://localhost:8000";
 const tBody = document.querySelector("tbody");
 const searchInput = document.querySelector(".table-input");
 const form = document.querySelector("form");

@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080";
+const BASE_URL = "http://localhost:8000";
 const dataCards = document.querySelector(".cards-data");
 
 async function getData() {
@@ -21,6 +21,7 @@ function drawCards(data) {
               <div class="text">
                 <h2>${element.title}</h2>
                 <p>${element.description}</p>
+                <a href="../../details-page.html?id=${element.id}">Detail</a>
               </div>
               <div>
                 <p>${element.price}</p>
