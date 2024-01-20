@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "title": "Grilled Beef with potatoes",
+      "description": "Meat, Potatoes, Rice, Tomatoe",
+      "price": 52,
+      "image": "https://fitmencook.com/wp-content/uploads/2023/03/mix-and-match-meal-prep11.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Grilled Beef with potatoes",
+      "description": "Meat, Potatoes, Rice, Tomatoe",
+      "price": 92,
+      "image": "https://fitmencook.com/wp-content/uploads/2023/03/mix-and-match-meal-prep11.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Grilled Beef with potatoes",
+      "description": "Meat, Potatoes, Rice, Tomatoe",
+      "price": 78,
+      "image": "https://fitmencook.com/wp-content/uploads/2023/03/mix-and-match-meal-prep11.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Grilled Beef with potatoes",
+      "description": "Meat, Potatoes, Rice, Tomatoe",
+      "price": 78,
+      "image": "https://fitmencook.com/wp-content/uploads/2023/03/mix-and-match-meal-prep11.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Grilled Beef with potatoes",
+      "description": "Meat, Potatoes, Rice, Tomatoe",
+      "price": 78,
+      "image": "https://fitmencook.com/wp-content/uploads/2023/03/mix-and-match-meal-prep11.jpg"
+    },
+    {
+      "id": "f987",
+      "image": "https://media.istockphoto.com/id/1488521147/photo/global-network-usa-united-states-of-america-north-america-global-business-flight-routes.jpg?s=2048x2048&w=is&k=20&c=MVLf6tCo7bEIhyR8hRlJyiTtej0gZmiaZQyk6Wh2qkY=",
+      "title": "galaxy",
+      "description": "galaxy photo",
+      "price": "88"
+    },
+    {
+      "id": "42ed",
+      "image": "https://media.istockphoto.com/id/1488521147/photo/global-network-usa-united-states-of-america-north-america-global-business-flight-routes.jpg?s=2048x2048&w=is&k=20&c=MVLf6tCo7bEIhyR8hRlJyiTtej0gZmiaZQyk6Wh2qkY=",
+      "title": "dfgh",
+      "description": "oiuyt",
+      "price": "-99"
+    },
+    {
+      "id": "9b4e",
+      "image": "Voluptates dolor ut ",
+      "title": "Sed incididunt sit d",
+      "description": "Cupiditate eaque arc",
+      "price": "Quia quam deserunt e"
+    }
+  ]
+}

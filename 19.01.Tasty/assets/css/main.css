@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.carousel-inner .carousel-item {
+  height: 100vh;
+}
+ul {
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+h1{
+  margin-bottom: 0;
+}
+header {
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  background-color: #b7b3aa;
+}
+header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header .logo h1 {
+  color: white;
+  font-size: 1.5rem;
+  border: 1px solid white;
+  padding: 3px 5px;
+  letter-spacing: 2px;
+}
+header .header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+header .header nav ul li a {
+  color: white;
+  font-size: 1.1rem;
+}
+header .header .icon {
+  display: none;
+}
+header .header .icon i {
+  color: white;
+  font-size: 1.1rem;
+}
+.carousel-caption h5 {
+  font-size: 5rem;
+}
+.carousel-caption p {
+  margin-bottom: 200px;
+  font-size: 40px;
+}
+/* ABOUT TASTY */
+#about-tasty {
+  padding: 70px 0;
+  background-color: aliceblue;
+}
+#about-tasty .about-tasty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+#about-tasty .about-tasty .left-page {
+  width: 50%;
+}
+#about-tasty .about-tasty .left-page img {
+  width: 100%;
+}
+#about-tasty .about-tasty .right-page {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+#about-tasty .about-tasty .right-page p {
+  width: 80%;
+  opacity: 0.7;
+}
+#about-tasty .about-tasty .right-page h1 {
+  width: 70%;
+  font-size: 1.9rem;
+}
+/* DISCOVER SECT */
+#discover-sect {
+  background-color: aliceblue;
+  padding: 100px 0;
+}
+#discover-sect .discover-sect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+#discover-sect .discover-sect h1 {
+  font-size: 1.8rem;
+  color: rgb(66, 135, 199);
+}
+#discover-sect .discover-sect .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#discover-sect .discover-sect .btn button {
+  background-color: transparent;
+  border: 1px solid #ffb400;
+  padding: 10px 13px;
+  color: #ffb400;
+}
+#discover-sect .discover-sect .cards-data {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+#discover-sect .discover-sect .cards-data .card-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: rgb(203, 212, 220);
+  padding: 15px 10px;
+  color: rgb(67, 133, 195);
+}
+#discover-sect .discover-sect .cards-data .card-data .img {
+  width: 20%;
+}
+#discover-sect .discover-sect .cards-data .card-data .img img {
+  width: 100%;
+  border-radius: 50%;
+}
+#discover-sect .discover-sect .cards-data .card-data .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3px;
+}
+#discover-sect .discover-sect .cards-data .card-data h2 {
+  font-size: 1.5rem;
+}
+
+#discover-sect .discover-sect a {
+  border: 1px solid #ffb400;
+  padding: 20px 30px;
+  color: #ffb400;
+}
+
+/* GUESTS SAYS */
+#guests-says {
+  padding: 70px 0;
+  background-color: #ebebeb;
+}
+#guests-says .guests-says {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#guests-says .guests-says h1 {
+  font-size: 1.8rem;
+  color: rgb(66, 135, 199);
+}
+#guests-says .guests-says .cards-sect {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 70px;
+}
+#guests-says .guests-says .cards-sect .card-sect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 7px gray;
+  background-color: white;
+}
+#guests-says .guests-says .cards-sect .card-sect .img {
+  width: 20%;
+}
+#guests-says .guests-says .cards-sect .card-sect .img img {
+  width: 100%;
+  border-radius: 50%;
+}
+#guests-says .guests-says .cards-sect .card-sect p {
+  text-align: center;
+  width: 80%;
+  opacity: 0.7;
+}
+
+/* TABLE */
+#table-sect {
+  padding: 40px 0;
+}
+#table-sect .table-sect {
+  text-align: center;
+}
+#table-sect .table-sect input {
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 1px solid #ffb400;
+}
+table {
+  width: 100%;
+  padding: 20px 0;
+}
+th {
+  padding-bottom: 40px;
+}
+td {
+  text-align: center;
+  padding: 10px;
+}
+tr:nth-child(even) {
+  background-color: #d0cfcd;
+}
+#table-sect .table-sect td img {
+  width: 80px;
+  border-radius: 50%;
+}
+td button {
+  border: 1px solid #ffb400;
+  padding: 10px 30px;
+  color: #ffb400;
+  background-color: white;
+}
+
+/* FORM */
+#form-sect {
+  padding: 60px 0;
+}
+#form-sect .form-sect form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#form-sect .form-sect form input {
+  padding: 10px 30px;
+  background-color: #d0cfcd;
+  border: none;
+}
+#form-sect .form-sect button {
+  border: 1px solid #ffb400;
+  padding: 10px 30px;
+  color: #ffb400;
+  background-color: white;
+}
+@media screen and (max-width: 1199px) {
+  .container {
+    padding: 0 5%;
+  }
+  header .header nav {
+    display: none;
+  }
+  header .header .icon {
+    display: inline;
+  }
+  #about-tasty .about-tasty {
+    flex-direction: column;
+  }
+  #about-tasty .about-tasty .left-page {
+    width: 100%;
+  }
+  #about-tasty .about-tasty .right-page {
+    width: 100%;
+  }
+  #about-tasty .about-tasty .right-page h1 {
+    width: 100%;
+  }
+  #about-tasty .about-tasty .right-page p {
+    width: 100%;
+  }
+  #discover-sect .discover-sect h1 {
+    text-align: center;
+  }
+  #discover-sect .discover-sect .cards-data {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #discover-sect .discover-sect .cards-data .card-data .text h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  #guests-says .guests-says .cards-sect {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
+  #guests-says .guests-says .cards-sect .card-sect {
+    padding: 40px 0;
+  }
+}
